@@ -79,7 +79,14 @@ Footer - не завязан на логику ни одного микрофр�
 Shared (через Module Federation)
 ProtectedRoute - логика защищённых роутов (шарится между микрофронтами через ModuleFederation для проверки роутов)
 PopupWithForm - универсальный попап, который можно переиспользовать (AddPlacePopup, EditProfilePopup и т.д. на его базе).
+
 CurrentUserContext - контекст пользователя, который шарится между микрофронтендами через Module Federation. В cards-microfrontend нужен id пользователя, в profile-microfrontend - 
 контекст для изменения имени и описания юзера. 
 
 host-app управляет основным роутингом (/cards, /profile, /auth), а более детальный роутинг располагается в самих микрофронтендах.
+
+# Задание 2
+
+Ссылка на решение
+
+https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=arch_template_task2%20(1).drawio&dark=auto#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1TPDX87dZ0fUXf3rQMwA8bSKKjB3rjv4O%26export%3Ddownload
